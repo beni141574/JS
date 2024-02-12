@@ -17,6 +17,7 @@
     <label><button onclick="Media()">Calcular la media</button></label><br><br>
     <label><button onclick="tri()">Calcular área</button></label><br><br>
     <label><button onclick="calculaareatriangulo()">Calcular triangulo</button></label><br><br>
+    <label><button onclick="calculaprecioconiva()">ingresar dinero</button></label><br><br>
 
     <script>
 
@@ -172,7 +173,20 @@
         alert (result)
      
         }
+        
+        function precioconiva(precio){
 
+}
+
+function calculaprecioconiva(){
+let n1=prompt('Buenos dias ingrese el dinero')
+if(n1>2000){
+alert('error, tienes que ingresar menos de 2000 euros')
+}else{
+    alert('Esto es el iva del dinero que ha ingresado: '+n1*21/100)
+}
+
+}
 
         
      
